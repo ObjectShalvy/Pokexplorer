@@ -1,0 +1,62 @@
+<!-- PokéExplorer  Equipo   512A-->
+<!-- Jose Enrique Gonzalez Sanchez -->
+<!-- Salvador Sanchez Luengas -->
+<!-- Alejandra Jimenez Venegas -->
+<!-- Ernesto Ramos Barrera -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Completa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar Pokémon por nombre o número..." id="searchInput">
+        <div class="suggestions" id="suggestions"></div>
+    </div>
+    <div class="container">
+        <div class="pokedex">
+            <div class="top-section">
+                <div class="circle-button"></div>
+                <div class="dots">
+                    <div style="background:red;"></div>
+                    <div style="background:yellow;"></div>
+                    <div style="background:green;"></div>
+                </div>
+            </div>
+            <div class="screen-container">
+                <div class="screen">
+                    <div class="catalog-grid"></div>
+                    <div class="pokemon-grid"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="left-controls">
+                    <div class="d-pad">
+                        <div class="d-pad-button d-pad-up" id="upButton"></div>
+                        <div class="d-pad-button d-pad-down" id="downButton"></div>
+                        <div class="d-pad-button d-pad-left" id="leftButton"></div>
+                        <div class="d-pad-button d-pad-right" id="rightButton"></div>
+                    </div>
+                    <button class="start-button" id="startButton">
+                        <span class="icon-play"></span>
+                        START
+                    </button>
+                </div>
+                <div></div>
+                <div class="nav-buttons">
+                    <button class="nav-button" id="backButton">
+                        <span class="icon-back"></span>
+                    </button>
+                    <button class="nav-button" id="homeButton">
+                        <span class="icon-home"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
